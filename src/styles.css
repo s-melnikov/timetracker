@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  position: relative;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Ubuntu, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  background-color: #ffffff;
+  color: #444444;
+}
+
+#container {
+  padding: 15px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.col {
+  flex: 1;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  outline: 0;
+  border: none;
+  padding: 7px 10px;
+}
+
+.btn-sm {
+  padding: 5px 7px;
+}
+
+.btn-lg {
+  padding: 9px 12px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  color: #0056b5;
+}
+
+.btn-warning {
+  color: #d67b3e;
+}
+
+.btn-success {
+  color: #08b300;
+}
+
+.flex {
+  display: flex;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid #dcdcdc;
+  padding: 5px 7px;
+}
+
+.day_title {
+  padding: 20px 7px 10px;
+  font-size: 150%;
+}
+
+.day_title small {
+  font-size: 80%;
+}
+
+.task_title {
+  width: 100%;
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+
+.task_title .inner {
+  padding: 5px 7px 7px 7px;
+}
+
+.day_tasks {
+  margin: 15px 0;
+}
+
+.task {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.task + .task:not(:first-child) {
+  border-top: none;
+}
+
+.task:not(:first-child) {
+  border-top: none;
+}
+
+.task-inner {
+  padding: 10px;
+}
+
+.task.current {
+  border-color: #f7b386;
+}
+
+.task .meta {
+  width: 120px;
+  margin-top: 7px;
+}
+
+.task_started {
+  display: inline-block;
+}
+
+.task_spent {
+  margin-left: 10px;
+}
+
+.task .btns {
+  padding-top: 2px;
+}
